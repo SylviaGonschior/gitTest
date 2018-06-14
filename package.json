@@ -1,0 +1,30 @@
+{
+  "name": "gittest",
+  "version": "1.0.0",
+  "description": "This is a test",
+  "main": "index.html",
+  "dependencies": {
+    "chokidar": "^2.0.3",
+    "fsevents": "^1.2.4",
+    "npm": "^6.1.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+	"start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "lite":"lite-server"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylviaGonschior/gitTest.git"
+  },
+  "author": "Sylvia Gonschior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SylviaGonschior/gitTest/issues"
+  },
+  "homepage": "https://github.com/SylviaGonschior/gitTest#readme",
+  "keywords": []
+}
